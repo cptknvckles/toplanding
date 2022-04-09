@@ -102,10 +102,7 @@ inner-column {
 }
 
 /*MODULES*/
-nav {
-    position: sticky;
-    top: 0;
-}
+
 ul{
     width: 100%;
     display: flex;
@@ -165,9 +162,32 @@ li {
 
 .welcome {
     background-color: var(--dark);
+    border: 2px solid lime;
 }
 
 .welcome .button{
     background-color: #3882F6;
 }
 
+.products {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 2px solid gray;
+    background-color: var(--white);
+}
+
+.product-list {
+
+}
+
+ .pd {
+     color: #1F2937;
+ }
+
+@media (min-width: 700px) {
+    .product-list {
+        background-color: #efefef;
+        color: #1F2937;
+    }
+}
